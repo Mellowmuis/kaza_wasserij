@@ -8,14 +8,23 @@
 html {
   font-size: $t-fontSize;
 }
-
+//@media all and (min-width: 1740px){
+ // body{
+ //   background-position: 0px -30px !important;
+ // }
+//}
 body {
-  background  : $c-white;
-  color       : $c-black;
+  background  : #ffffff;
+  color       : $c-darkblue;
   font-family : $t-fontFamily;
   font-size   : 100%;
   line-height : $t-lineHeight;
+  background-image: url("../img/background.png");
+
+  background-repeat:repeat-x;
+  background-position:0px 0px;
 }
+
 
 // -------------------------------------
 // Block Content
@@ -28,7 +37,7 @@ p {
 h1, h2, h3,
 h4, h5, h6 {
   font-family: $t-headerFontFamily;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 h1, %u-textH1 {
@@ -65,7 +74,7 @@ ul {
 // -------------------------------------
 
 a {
-  color: $c-blue;
+  color: $c-darkblue;
   text-decoration: none;
   &:hover,
   &:focus {

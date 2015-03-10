@@ -1,6 +1,6 @@
 // Responsive nav menu. Everything related to the navigation in TABLET/MOBILE mode should go here
 
-@media all and (min-width: 1040px) {
+@media all and (min-width: 800px) {
 
 } 
 
@@ -17,9 +17,7 @@
   border: 3px solid white;
   cursor: pointer;
   float: right;    
-	&:hover {
-		//	background-color: #fafafa;
-	}
+	
 }
 
 .Nav-toggle {
@@ -51,23 +49,23 @@
 //======================================================
 
 
-@media all and (max-width: 1040px) {
+@media all and (max-width: 800px) {
 	.Nav-tel {
 		display: none;
 	 }
 	 #js-navCollapseTarget {
 		display: none;
         position: relative;
-        top: 65px;
+        top: 10px;
         left: 0;
         margin: 0;
         width: 100%;
-        box-shadow: 0px 30px 20px -20px rgba(0, 0, 0, 0.3) inset;
 	 }
 
 	 .Bot-Nav {
 		height: auto;
 		min-height: 58px;
+		background-color:rgba(151, 198, 217, 0.7);
 	 }
 	 #js-navCollapse {
 		display: block;
@@ -89,7 +87,6 @@
 
 	.Navigation-list {
 		position: static;
-        background-color: rgba(0, 78, 117, 1);
         border: 0px solid;
         box-shadow: 0 0 0 #fff;
 
@@ -101,33 +98,22 @@
 		display: block;
 		float: none;
 		line-height: 30px;
-		border-left: 0 solid;
 		width: 100%;
+		border-top:1px solid rgba(151, 198, 217, 1);
 
 		&:last-of-type {
 			margin-bottom: 15px;
 		}
 
-		&:hover {
-			//background-color: $c-blue;
-
-			-webkit-transition:all 0.2s ease;
-			-moz-transition:all 0.2s ease;
-			-o-transition:all 0.2s ease;
-			a.Navigation-link {
-			//	color: $c-blue;
-				text-decoration: none;
-
-			}
-		}
+		
 
         &:first-of-type a {       
-          box-shadow: 0px 30px 20px -20px rgba(0, 0, 0, 0.1) inset;
+          
           padding-top: 10px;  
         }
 
         &:last-of-type a {              
-          box-shadow: 0px 15px 20px -18px rgba(0, 0, 0, 0.6);
+        
           border-bottom: 0px solid;
         }
 
@@ -142,10 +128,6 @@
 		margin: 0;
 		font-weight: 400;
 		letter-spacing: 1.7px;
-	    &:hover {
-            background-color: #1e719a;
-            color: white;
-        }
 
 
 	}
@@ -163,14 +145,12 @@
 			border-radius: 7px;
 			top: 8px;
 			background-color: transparent;
-			&:hover {
-				background-color: rgba(255,255,255,0.2);
-			}
+			
 
 			.Icon--inline {
 				fill: white;
 				width: 2em;
-				height: 2em;
+				height: 2.7em;
 				padding-bottom: 1em;				
 			}
 		}
@@ -179,7 +159,7 @@
 			left: 10px;				
 			.Icon--inline {
 				margin: -4px;
-				margin-top: 5px;
+				margin-top: -7px;
 			}
 		}
 
@@ -194,8 +174,8 @@
 		.mailsvg {
 			left: 100px;				
 			.Icon--inline {
-				margin: -4px;
-				margin-top: 5px;
+				margin: -3.5px;
+				margin-top: -7px;
 			}
 		}
 	}

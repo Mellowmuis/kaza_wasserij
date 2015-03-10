@@ -10,7 +10,7 @@
 // -------------------------------------
 
 // Open Sans (normal, italic, bold, bold/italic)
-@include web-fonts(("Open Sans": ("400", "400 italic", "800", "800 italic")));
+@include web-fonts(("Open Sans": ("400", "400 italic", "800", "800 italic", "500")));
 
 // -------------------------------------
 // Variables
@@ -22,6 +22,8 @@ $max-width: 70rem;
 $c-black : #1B1C17;
 $c-blue  : #0070AF;
 $c-white : #EFEFEF;
+$c-darkblue: #213849;
+
 
 // ----- Layout ----- //
 $l-whiteSpace: 0.5rem;
@@ -39,4 +41,4 @@ $t-headerFontFamily : 'Open Sans', 'sans-serif';
 $t-fontSize         : 14px;
 $t-lineHeight       : 1.5;
 
-$gridColSpan12Breakpoint: 640px;
+$gridColSpan12Breakpoint: 768px;

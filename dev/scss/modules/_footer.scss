@@ -1,6 +1,12 @@
 .Footer {
+	padding-top:30px;
+	width:100%;
+	background-color:#406988;
+	color:white;
 }
+@media all and (max-width: 650px){
 
+}
 // RESPONSIVE FOOTER
 .Footer-inner .widget {
 	@include span-columns(4);
@@ -9,11 +15,40 @@
 	}
 }
 
-.Footer-inner {
+.menu {
+	color:black;
 }
 
 //style the widgets
 .Footer-inner .widget {
 
 }
+.logo-onder{
+	width:200px;
+	height:70px;
+	background-color:#406988;
+	border-radius:0 50px 0 0;
+	padding:20px;
+	margin-top:50px;
+}
 
+.line{
+	border-bottom: 1px solid white;
+}
+.play-bottom{
+width:70%;
+}
+.fb{
+	float:left;
+	margin-bottom:20px;
+}
+.fb2{
+	float:left;
+	margin-top: 3px;
+}
+.no-bottom-margin{
+
+		margin-bottom:3px;
+
+	
+}

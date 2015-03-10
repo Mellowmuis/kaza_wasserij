@@ -29,19 +29,19 @@
     <!-- build:remove:compressed -->
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/production.css">
     <!-- /build -->
-
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
     <!-- build:remove:compressed -->
-    <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js"></script>
     <!-- /build -->
-
+    
     <!-- Wordpress head function -->
     <?php wp_head(); ?>
     <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
-
+   
   </head>
   <body <?php body_class(); ?> >
 
-
+<!--<div class="background">-->
   <div class="Bot-Nav">
 	<div class="u-gridContainer">
 		<div class="Nav-toggle u-cf">
@@ -69,3 +69,9 @@
 		</div><!-- header-contact -->
 	</div>
   </div>
+  <div class="u-gridContainer">
+    <div class="u-gridRow">
+        <div class="u-gridCol12 Logo-headingTop"><a href="/home"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png"></a></div>
+    </div>
+  </div>
+

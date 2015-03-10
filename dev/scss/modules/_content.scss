@@ -1,3 +1,271 @@
 .Content {
 
 }
+//.background{
+//	background-image: url("../img/background.png");
+//	background-size: 100%;
+//}
+#map_canvas {
+	width:100%;
+	height:200px;
+	padding: 10px;
+	background: #000;
+	border-bottom:1px solid;
+}
+.diensten{
+	height:172px;
+	width:100%;
+	margin-bottom:40px;
+	background-color:white;
+	top: -20px;
+	position: relative;
+	border-bottom: 1px solid #213849;
+	padding-top:20px;
+}
+
+.main{
+	p{
+		margin-top:40px;
+		margin-bottom: 40px;
+	}
+	a{
+		color:#97c6d9;
+		text-decoration: underline;
+	}
+}
+.main-content{
+	padding-left:20px;
+	margin-bottom:40px;
+	background-color:#ffffff;
+	border-radius: 0px 0px 100px 0px;
+	-webkit-box-shadow: 3px 3px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    3px 3px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         3px 3px 5px 0px rgba(50, 50, 50, 0.75);
+}
+.second-content{
+	margin-bottom:40px;
+	background-color:#ffffff;
+	border-radius: 0px 0px 100px 0px;
+	-webkit-box-shadow: 3px 3px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    3px 3px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         3px 3px 5px 0px rgba(50, 50, 50, 0.75);
+}
+.box-radius{
+	margin-top:40px;
+	height:50px;
+	width:100%;
+	border-radius: 0px 100px 0px 0px;
+	background-color: #97c6d9;
+	border-bottom: 1px solid #213849;
+	-webkit-box-shadow: 3px 3px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    3px 3px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         3px 3px 5px 0px rgba(50, 50, 50, 0.75);
+	h4{
+		margin-top: 5px;
+		margin-left:20px;
+	}
+	h2{
+		margin-top: 10px;
+	}
+
+}
+
+.accContent {
+	display: none;
+}
+
+.slider-box{
+	width:70%;
+	height:50px;
+}
+.slider-background{
+	background-image: url("../img/slide2-back.png"); ;
+	background-size:cover;
+	height:100%;
+	width:100%;
+	border-radius: 0px 0px 100px 100px;
+	z-index:-1;
+}
+.box-radius2{
+	height:230px;
+	width:100%;
+	border-radius: 0px 70px 0px 0px;
+	background-color: #97C6D9;
+	-webkit-box-shadow: 3px 3px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    3px 3px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         3px 3px 5px 0px rgba(50, 50, 50, 0.75);
+	padding-top:5px;
+	h5{
+	margin-top: 10px;
+	margin-left:20px;
+	}
+}
+.icon{
+	float:left;
+	display:block;
+	margin-top:20px;
+	text-align:center;
+	width:100%;
+	margin:0 auto;
+}
+.icon-wrapper{
+	width:20%;
+	height:150px;
+	float:left;
+	text-align:center;
+	margin:0 auto;
+}
+
+
+.icon-small{
+	margin-right:10px;
+	width:20px;
+}
+.float{
+	float:left;
+}
+.gradient{
+	@include background-image(linear-gradient(to top, rgba(195, 222, 233, 1), rgba(241, 244, 246, 0)));
+	width:100%;
+}
+.img-border{
+	border-radius: 0px 0px 100px 0px;
+	margin-bottom:-5px;
+	border-left: 1px solid #213849;
+}
+.img-border-back{
+	border-radius: 0px 0px 100px 0px;
+	//margin-bottom:-5px;
+	border-left: 1px solid #213849;
+	background-image: url("../img/chemisch.png");
+	height:670px;
+}
+.contact-border{
+	border-left: 1px solid #213849;
+	padding-left:20px;
+}
+.maps-border{
+	position: absolute;
+    opacity: 0;
+    top: 0px;
+    left: 10px;
+    width: 300px;
+    height: 200px;
+    background-color: blue;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+.marg{
+	margin-left:10px;
+}
+.padding-top{
+	padding-top:20px;
+}
+.playstore{
+	width:39%;
+}
+.white-line{
+	height:2px;
+	width:110%;
+	background-color:white;
+}
+.iphone{
+	width:90%;
+	margin-bottom:20px;
+}
+.adress-info{
+	margin-top:20px;
+}.qr{
+	margin-top:20px;
+}
+
+//Accordion--------------------------
+ .accordion {
+    width: 97%;
+    height: 50px;
+    cursor: pointer;
+    padding: 0 1em;
+}
+.accordion a {
+
+    display: inline-block;
+    padding: 6px 5px;
+    font-size: 24px;
+    line-height: 26px;
+    margin: 0;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.1);
+    text-decoration: none;
+  
+}
+.accordion span:hover {
+    border-bottom-color: #333;
+    color: #97c6d9;
+}
+.accContent {
+    width: 97%;
+    padding: 0 20px 20px;
+}
+//------------------------------
+@media all and (max-width: 1000px){
+body{
+		background-position:0px 50px;
+	}
+}
+
+@media all and (max-width: 816px){
+	.img-border{
+		display: none;
+	}
+	.img-border-back{
+		display: none;
+	}
+}
+@media all and (max-width: 800px){
+	body{
+		background-position:0px 70px;
+	}
+	.diensten{
+		height: 160px;
+	}
+	.box-radius2{
+		height: 210px;
+	}
+}
+@media all and (max-width: 768px){
+	.img-border{
+		display: none;
+	}
+	.main-content{
+		padding-right:20px;
+	}
+	.white-line{
+		width:100%;
+	}
+}
+@media all and (max-width: 650px){
+	.icon-wrapper{
+		float:none;
+		
+		width:100%;
+	}
+	.diensten{
+		height: 853px;
+	}
+	.box-radius2{
+		height: 910px;
+	}
+	.white-line{
+	width:100%;
+}
+}
+@media all and (max-width: 600px){
+	.bx-viewport {
+	border-radius: 0px 0px 50px 50px !important;
+}
+	h4{
+		font-size: 20px;
+		margin-top: 10px !important;
+	}
+
+}

@@ -14,11 +14,12 @@ Template Name: App page
 				<aside class="u-gridCol4">
 					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/screenshot.png" class="App-iphone" />
 				</aside>
-				<article class="Content-article u-gridCol8" id="post-<?php the_ID(); ?>">
+				<article class="Content-article u-gridCol8 padding-top" id="post-<?php the_ID(); ?>">
 					<?php // the_content(); ?>
 					Bekijk nu ook de informatie van ons bedrijf vanuit de app! De app is beschikbaar in Google Play voor Android apparaten en als webapp voor iOS van Apple telefoons.
 
 					Voor Apple iPhone gebruikers: scan de QR-code of surf naar de website. 
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/Unitag_QRCode_KAZA.png">
 
 					<a href="#">Download de app hier</a>
 

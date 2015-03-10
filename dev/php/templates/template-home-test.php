@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Homepage
+Template Name: Homepage-test
 */
 ?>
 <?php get_header(); ?>
@@ -8,11 +8,11 @@ Template Name: Homepage
 		<div class="u-gridContainer">
 			<div class="u-gridRow">
 				<div class="u-gridCol12 box-radius">
-					
+					<h4>WELKOM BIJ KAZA WASSERIJ & STOMERIJ</h4>
 				</div>
 			</div>
 			<div class="u-gridRow">
-					
+
 		 				<div class="Slider">
 
 							<?php
@@ -32,10 +32,9 @@ Template Name: Homepage
 										<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' );
 											  $image_url = $image[0];
 										?>
-										<div class="slide" style="">
-											<img class="border-img" src="<?php echo $image_url; ?>" />
-											<div class="slider-txt-back"><h4><?php the_title(); ?></h4></div>
-										</div>
+										
+										<img class="border-img" src="<?php echo $image_url; ?>" >
+
 										<?php
 									}
 								}
@@ -49,10 +48,9 @@ Template Name: Homepage
 		<div class="u-gridContainer">
 			<div class="u-gridRow"> 
 				<div class="u-gridCol12 main"> 
-					<p>Sinds 1975 is Kaza wasserij & stomerij actief op het gebied van wassen, chemisch reinigen en linnenverhuur. 
-						Op het gebied van nat wassen en chemisch reinigen hebben wij onze sporen meer dan verdiend, wij kunnen...  <a href="/profiel">Lees Meer</a>
+					<p>Sinds 1975 is Kaza wasserij & stomerij actief op het gebied van wassen, chemisch reinigen en linnenverhuur. In de laatste jaren hebben wij onze 
+						dienstverlening uitgebreid met bedrijfskleding, persoonlijke beveiligingsmiddelen en installaties voor bedrijfshygiëne.
 					</p>
-
 				</div>
 			</div>
 			<div class="u-gridRow">
@@ -60,7 +58,7 @@ Template Name: Homepage
 					<div class="box-radius2">
 						<h5>DIENSTEN</h5>
 						<div class="diensten">
-							<a href="/diensten/#particulieren">
+							<a href="/diensten">
 								<div class="icon-wrapper">
 									<div class="icon">
 										<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/wasmachine.png"/>
@@ -69,7 +67,7 @@ Template Name: Homepage
 									<p>PARTICULIEREN</p>
 								</div>
 							</a>
-							<a href="/diensten/#hotels">
+							<a href="/diensten">
 							<div class="icon-wrapper">
 								<div class="icon">
 									<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/bed.png"/>
@@ -78,7 +76,7 @@ Template Name: Homepage
 								<p>HOTELS</p>
 							</div>
 							</a>
-							<a href="/diensten/#restaurants">
+							<a href="/diensten">
 							<div class="icon-wrapper">
 								<div class="icon">
 									<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/tafel.png"/>
@@ -87,7 +85,7 @@ Template Name: Homepage
 								<p>RESTAURANTS</p>
 							</div>
 							</a>
-							<a href="/diensten#bedrijfskleding">
+							<a href="/diensten">
 							<div class="icon-wrapper">
 								<div class="icon">
 									<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/kleding.png"/>
@@ -96,7 +94,7 @@ Template Name: Homepage
 								<p>BEDRIJFSKLEDING</p>
 							</div>
 							</a>
-							<a href="/diensten#verhuur">
+							<a href="/diensten">
 							<div class="icon-wrapper">
 								<div class="icon">
 									<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/verhuur.png"/>
