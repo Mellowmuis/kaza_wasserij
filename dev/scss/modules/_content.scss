@@ -1,6 +1,20 @@
 .Content {
 
 }
+.land-box{
+	background:white;
+	border-radius:30px;
+	-webkit-box-shadow: 3px 3px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    3px 3px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         3px 3px 5px 0px rgba(50, 50, 50, 0.75);
+	margin-bottom:20px;
+	margin-top:20px;
+	padding:20px;
+	h2{
+		font-size: 2.3rem;
+		line-height:0;
+	}
+}
 //.background{
 //	background-image: url("../img/background.png");
 //	background-size: 100%;
@@ -137,8 +151,8 @@
 	border-radius: 0px 0px 100px 0px;
 	//margin-bottom:-5px;
 	border-left: 1px solid #213849;
-	background-image: url("../img/chemisch.png");
-	height:670px;
+	background-image: url("../img/wasserij.png");
+	height:658px;
 }
 .contact-border{
 	border-left: 1px solid #213849;
